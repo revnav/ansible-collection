@@ -1,6 +1,0 @@
----
-- name : Installing oci collections
-  collections:
-    - oracle.oci
-  connection: local
-  hosts: localhost

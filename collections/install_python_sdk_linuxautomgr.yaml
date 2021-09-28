@@ -3,6 +3,9 @@
   connection: local
   hosts: localhost
   tasks:
+    - name: installing cryptography
+      pip:
+        name: cryptography
     - name: Installing OCI SDK
       pip:
         name: oci

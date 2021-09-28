@@ -1,4 +1,6 @@
 ---
 - name : Installing oci python library using Ansible pip module
-  pip:
-    name: oci
+  tasks:
+    - name: Installing install OCI SDK
+      pip:
+        name: oci

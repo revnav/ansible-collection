@@ -1,6 +1,8 @@
 ---
 - name : Installing oci python library using Ansible pip module
+  connection: local
+  hosts: localhost
   tasks:
-    - name: Installing install OCI SDK
+    - name: Installing OCI SDK
       pip:
         name: oci
